@@ -1,6 +1,6 @@
 using System;
 
-public class System1_Organo
+public class StudentInfoGWA_Calculator
 {
     public static void Main(string[] args)
     {
