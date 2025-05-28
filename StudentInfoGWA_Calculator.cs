@@ -1,6 +1,3 @@
-// Online C# Editor for free
-// Write, Edit and Run your C# code using C# Online Compiler
-
 using System;
 
 public class System1_Organo
@@ -58,35 +55,35 @@ public class System1_Organo
         Console.WriteLine("Subject Name: ");
         subjectName1 = Console.ReadLine();
         Console.WriteLine("Grade: ");
-        grade1 = Convert.ToInt32(Console.ReadLine());
+        grade1 = Convert.ToDouble(Console.ReadLine());
         
         Console.WriteLine("Subject Code 2: ");
         subjectCode2 = Console.ReadLine();
         Console.WriteLine("Subject Name: ");
         subjectName2 = Console.ReadLine();
         Console.WriteLine("Grade: ");
-        grade2 = Convert.ToInt32(Console.ReadLine());
+        grade2 = Convert.ToDouble(Console.ReadLine());
         
         Console.WriteLine("Subject Code 3: ");
         subjectCode3 = Console.ReadLine();
         Console.WriteLine("Subject Name: ");
         subjectName3 = Console.ReadLine();
         Console.WriteLine("Grade: ");
-        grade3 = Convert.ToInt32(Console.ReadLine());
+        grade3 = Convert.ToDouble(Console.ReadLine());
         
         Console.WriteLine("Subject Code 4: ");
         subjectCode4 = Console.ReadLine();
         Console.WriteLine("Subject Name: ");
         subjectName4 = Console.ReadLine();
         Console.WriteLine("Grade: ");
-        grade4 = Convert.ToInt32(Console.ReadLine());
+        grade4 = Convert.ToDouble(Console.ReadLine());
         
         Console.WriteLine("Subject Code 5: ");
         subjectCode5 = Console.ReadLine();
         Console.WriteLine("Subject Name: ");
         subjectName5 = Console.ReadLine();
         Console.WriteLine("Grade: ");
-        grade5 = Convert.ToInt32(Console.ReadLine());
+        grade5 = Convert.ToDouble(Console.ReadLine());
         
         GWA = (grade1 + grade2 + grade3 + grade4 + grade5)/5;
         Console.WriteLine("General Weighted Average: " + GWA);
