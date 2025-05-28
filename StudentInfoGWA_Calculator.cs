@@ -4,9 +4,6 @@ public class System1_Organo
 {
     public static void Main(string[] args)
     {
-        //ORGANO, JOSEPH VER REMAR B.
-	
-
         string lastName, firstName, middleName;
         string houseNumber, streetName, subvill, brgy, city, province;
         string contactNumber, email;
